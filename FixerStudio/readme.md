@@ -9,7 +9,7 @@ This is a project designed to help people with making 2D Console based games in 
 
 # VERSIONS
 
-CURRENT VERSION: ALPHA -1 (DEV-NON-REL.NONPUBLIC)
+CURRENT VERSION: ALPHA 1 (DEV-NON-REL.PUBLIC)
 
 Not released yet.
 
