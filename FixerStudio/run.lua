@@ -3,7 +3,7 @@ local autorunAuthed = {"autorun/globalInit.lua", "autorun/settings.lua"}
 
 function initAutorun()
     for _,v in pairs(autorunAuthed) do
-        loadfile(v)
+        loadfile(v)()
     end
 end
 
@@ -16,6 +16,6 @@ for _,v in pairs(args) do
     if v == "-r" or v == "-run" then
         initAutorun()
         local mainScript = "client/loading.lua"
-        loadfile(mainScript)
+        loadfile(mainScript)()
     end
 end
